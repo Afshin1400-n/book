@@ -1,6 +1,8 @@
+"use client"
 import Link from "next/link";
 
 export default function Home() {
+  
   return (
     <div className="min-h-screen bg-gray-100">
       {/* Hero */}
@@ -15,7 +17,7 @@ export default function Home() {
           رزرو نوبت آنلاین، سریع و آسان. همین حالا نوبت خود را رزرو کنید.
         </p>
         <Link
-          href="/book"
+          href="/login"
           className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg transition"
         >
           رزرو نوبت
