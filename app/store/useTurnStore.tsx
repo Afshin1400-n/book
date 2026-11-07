@@ -23,6 +23,7 @@ export const useTurnStore = create<TurnState>()(
         set((state) => ({ turns: [...state.turns, appointment] })),
       removeTurn: (id) =>
         set((state) => ({ turns: state.turns.filter((t) => t.id !== id) })),
+      
     }),
     { name: "turn-storage" }
   )
