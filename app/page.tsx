@@ -22,6 +22,12 @@ export default function Home() {
         >
           رزرو نوبت
         </Link>
+          <Link
+          href="/dashboardAdmin"
+          className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg transition"
+        >
+          ادمین 
+        </Link>
       </section>
 
       {/* Features */}
